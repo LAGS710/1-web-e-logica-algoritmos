@@ -1,0 +1,40 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interfaz de Búsqueda</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="toolbar">
+            <div class="radio-group">
+                <input type="radio" name="order" id="az">
+                <label for="az">A-Z</label>
+                <input type="radio" name="order" id="za">
+                <label for="za">Z-A</label>
+            </div>
+            <button class="button">Mostrar solo nombres</button>
+            <button class="button">Categoría</button>
+            <button class="button">Máximo</button>
+            <button class="button">Buscar</button>
+        </div>
+        <div class="results">
+            <p>Resultados</p>
+            <hr>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Precio</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Datos dinámicos -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
+

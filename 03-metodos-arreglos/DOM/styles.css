@@ -1,0 +1,46 @@
+body {
+    background-color: #c2b5b6;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    width: 80%;
+    background-color: #9a9092;
+    padding: 20px;
+}
+.toolbar {
+    background-color: #5b5556;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.radio-group {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: white;
+}
+.button {
+    background-color: #e3cfcf;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.results {
+    margin-top: 20px;
+    background-color: #b4b1b1;
+    padding: 10px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
